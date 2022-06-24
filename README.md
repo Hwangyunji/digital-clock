@@ -1,5 +1,7 @@
 # digital-clock
 
+![캡처](https://user-images.githubusercontent.com/105402299/175481753-fa54c4cb-7a2e-4586-8e23-5ea3e0b584c8.JPG)
+
 https://hwangyunji.github.io/digital-clock/
 
 ## 작품소개
