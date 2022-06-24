@@ -1,6 +1,7 @@
 # digital-clock
 
 ![캡처](https://user-images.githubusercontent.com/105402299/175481753-fa54c4cb-7a2e-4586-8e23-5ea3e0b584c8.JPG)
+![50m-red](https://user-images.githubusercontent.com/105402299/175510914-86a923c3-7a27-4b02-8459-9ee7cee7a01c.JPG)
 
 https://hwangyunji.github.io/digital-clock/
 
