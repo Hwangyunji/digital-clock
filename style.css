@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'digital-7-mono';
+    src: url('./font/digital-7-mono.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.clock {
+    background-image: url(./cloud.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 375px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'digital-7-mono', monospace;
+
+    animation-name: cloud;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud {
+    0% {top: 0px;}
+    25% {top: 30px;}
+    50% {top: 0px;}
+    85% {top: 50px;}
+    100% {top: 0px;}
+}
+.clock:hover {
+    animation-name: hover;
+}
+@keyframes hover {
+    0% {top:0px}
+    100% {top:0px}    
+}
+.sec {
+    position: relative;
+    font-size: 45px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 90px;
+}
+.container.on {
+    color: red;
+}
+.day {
+    font-size: 60px;
+}
+.time {
+    font-size: 90px;
+    position: relative;
+    top: 30px;
+}
