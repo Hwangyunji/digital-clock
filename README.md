@@ -1,12 +1,12 @@
 # digital-clock
 
-![normal](https://user-images.githubusercontent.com/105402299/175511593-56e845e6-32c9-4e64-958d-b7544bda5f93.JPG)
 
-![50m-red](https://user-images.githubusercontent.com/105402299/175510914-86a923c3-7a27-4b02-8459-9ee7cee7a01c.JPG)
-
-https://hwangyunji.github.io/digital-clock/
+## 깃허브 명령어 설명
+1. git init 깃 프로젝트 초기화
+2. git add 업데이트 된 파일명 - 변경된 파일 추가
+3. git commit -m "설명글" - 확정단계
+4. git branh -M main -기본저장소 위치 설정
+5. git remote add origin https://github.com/Hwangyunji/digital-clock.git 깃허브 소스 주소
+6. git push -u origin main - 업로드# digital-clock
 
 ## 작품소개
-- 구름 모양의 위아래로 움직이는 디지털 시계입니다.
-- 시계에 마우스를 올리면 움직이던 시계가 멈춥니다.
-- 50분이 되면 시계가 빨간색으로 변하고 클릭을 하면 원래의 모습으로 돌아옵니다.
